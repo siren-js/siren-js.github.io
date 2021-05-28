@@ -1,6 +1,4 @@
-# Siren.js
-
-## Projects
+# Projects
 
 - `@siren-js/core`
 - `@siren-js/client`
