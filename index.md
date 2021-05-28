@@ -1,3 +1,7 @@
+---
+title: Siren.js
+---
+
 # Projects
 
 - `@siren-js/core`
