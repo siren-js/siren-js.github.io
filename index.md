@@ -49,5 +49,5 @@ of things that are likely obvious from the base specification, but they
 ## Examples
 
 The [examples](https://github.com/siren-js/examples) repository is for (you
-guessed it!) Siren.js examples. This is currently empty :pensive:, so feel free to
+guessed it!) Siren.js examples. This is currently empty 😔, so feel free to
 contribute if you want to show off an API.
