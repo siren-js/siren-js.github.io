@@ -41,7 +41,7 @@ browse any Siren API. It's developed with [React] and [Bulma] and deployed on
 
 ## Specification Extensions
 
-We define several [extensions](https://github.com/siren-js/spec-extensions) to
+We define several [extensions](https://siren-js.github.io/spec-extensions) to
 the Siren specification. Many of the extensions are simply detailed explanations
 of things that are likely obvious from the base specification, but they
 (hopefully) remove ambiguity and avoid confusion.
