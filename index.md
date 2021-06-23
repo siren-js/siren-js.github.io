@@ -26,7 +26,8 @@ etc.), supporting many of our [specification extensions][ext].
 
 [SireNg](https://github.com/siren-js/ng) is Siren.js for Angular users.
 Primarily used for building dynamic forms backed by Siren actions. Published as
-`@siren-js/ng` on NPM.
+[`@siren-js/ng`](https://github.com/siren-js/ng/tree/main/projects/siren-js/ng)
+on NPM.
 
 ## API Browser
 
