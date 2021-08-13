@@ -50,6 +50,6 @@ confusion.
 
 ## Examples
 
-The [examples](https://github.com/siren-js/examples) repository is for (you
-guessed it!) Siren.js examples. This is currently empty 😔, so feel free to
-contribute if you want to show off an API.
+The [examples](https://github.com/siren-js/examples) repository contains demo
+clients and servers utilizing Siren.js. Feel free to contribute your own
+examples or add a link to your project that uses Siren.js!
