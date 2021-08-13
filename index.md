@@ -1,8 +1,3 @@
----
-title: Siren.js
-description: JavaScript libraries for Siren clients and servers
----
-
 Siren.js provides tools for working with [Siren]. Unsurprisingly, our target is
 JavaScript, but some of the tools may be helpful to other users as well.
 
