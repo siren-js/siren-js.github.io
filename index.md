@@ -1,5 +1,7 @@
 ---
 title: Siren.js
+project_title: Siren.js
+project_tagline: JavaScript libraries for Siren clients and servers
 ---
 
 Siren.js provides tools for working with [Siren]. Unsurprisingly, our target is
