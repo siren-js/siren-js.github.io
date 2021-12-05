@@ -1,6 +1,6 @@
 # Core
 
-[`@siren-js/core`](https://siren-js.github.io/core) provides the core
+[`@siren-js/core`](https://github.com/siren-js/core) provides the core
 functionality for [Siren.js](index.md). Primarily, it is intended for generating
 and parsing Siren representations. It can also be used to search parsed
 representations for various components.

@@ -1,6 +1,6 @@
 # Client
 
-[`@siren-js/client`](https://siren-js.github.io/client) provides all the
+[`@siren-js/client`](https://github.com/siren-js/core) provides all the
 boilerplate functionality for Siren API clients, handling all the protocol
 semantics of communicating with a Siren API server (following links,
 submitting actions, etc.). It also supports many of our
