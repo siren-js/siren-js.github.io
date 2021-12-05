@@ -1,3 +1,10 @@
+# Core
+
+[`@siren-js/core`](https://siren-js.github.io/core) provides the core
+functionality for Siren.js. Primarily, it is intended for generating and parsing
+Siren representations. It can also be used to search parsed representations for
+various components.
+
 The following example demonstrates one way of building the
 [example entity][siren-example] from the Siren spec. It uses the `Entity` class
 which takes an object representing a [Siren entity][siren-entity].
@@ -145,7 +152,7 @@ new Siren.Entity({
 //=> same as entity
 ```
 
-### Component Lookup
+## Component Lookup
 
 The `Entity` and `Action` classes each provide a method for looking up their
 actions and fields by `name`.
@@ -182,7 +189,7 @@ entity.getEntitiesByClass('items', 'info');
 The `Action` class has a method for looking up fields by `class` that works
 similarly.
 
-### Generating Siren
+## Generating Siren
 
 To generate a Siren representation, use `JSON.stringify()`.
 
@@ -190,7 +197,7 @@ To generate a Siren representation, use `JSON.stringify()`.
 const siren = JSON.stringify(entity);
 ```
 
-### Parsing Siren
+## Parsing Siren
 
 To parse a string as a Siren representation, use `JSON.parse()` and pass the
 result to the `Entity` constructor.
@@ -200,7 +207,7 @@ new Siren.Entity(JSON.parse(siren));
 //=> same as entity
 ```
 
-### Extensions
+## Extensions
 
 The options objects of each component class allow you to extend the core Siren
 spec. Need an [`hreflang`][rfc8288-3.4.1] property on your link? No problem!
@@ -224,7 +231,7 @@ if (value < field.min || value > field.max) {
 }
 ```
 
-### TypeScript
+## TypeScript
 
 Type declarations are included in the `@siren-js/core` package and require at
 least version 3.8.2 of TypeScript. However, TypeScript users may experience
