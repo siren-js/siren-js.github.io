@@ -1,9 +1,9 @@
 # Core
 
 [`@siren-js/core`](https://siren-js.github.io/core) provides the core
-functionality for Siren.js. Primarily, it is intended for generating and parsing
-Siren representations. It can also be used to search parsed representations for
-various components.
+functionality for [Siren.js](index.md). Primarily, it is intended for generating
+and parsing Siren representations. It can also be used to search parsed
+representations for various components.
 
 The following example demonstrates one way of building the
 [example entity][siren-example] from the Siren spec. It uses the `Entity` class
