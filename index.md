@@ -12,7 +12,7 @@ non-JavaScript users.
 
 - [Examples](https://github.com/siren-js/examples) &ndash; repository of apps
   demoing Siren.js
-- [API browser](https://siren-js-api-browser.herokuapp.com) &ndash; UI for
+- [API browser](https://siren-js.github.io/api-browser/) &ndash; UI for
   browsing a Siren API (supports our specification extensions)
 - [Specification extensions](https://siren-js.github.io/spec-extensions) &ndash;
   extensions to the Siren specification, independent of Siren.js and JavaScript
