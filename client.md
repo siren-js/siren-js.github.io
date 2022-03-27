@@ -62,9 +62,7 @@ if (link) {
 
 ## Submitting Actions
 
-The `submit()` method will convert an [action] into and make an HTTP request
-based on the `href` and `method`. Fields are serialized based on the action's
-`type`.
+The `submit()` method will convert an [action] into and make an HTTP request based on the `href` and `method`. Fields are serialized based on the action's `type`.
 
 [action]: https://github.com/kevinswiber/siren#actions-1
 [ext]: https://github.com/siren-js/spec-extensions#action-submission-algorithm
@@ -81,17 +79,7 @@ if (action) {
 }
 ```
 
-By default, actions are submitted according to our [Siren extensions][ext], but
-this is [customizable](#customizing-field-serialization). Out of the box, the
-client supports submitting an action whose `type` is either
-`application/x-www-form-urlencoded` or `text/plain`.
-
-> Unfortunately, due to limitations in the `node-fetch` package, there is
-> currently no default support for `multipart/form-data` actions. See
-> [this issue](https://github.com/siren-js/client/issues/8) for details.
-
-Additionally, the following field types are supported in the default
-serializers:
+By default, the client supports `application/x-www-form-urlencoded`, `multipart/form-data`, and `text/plain` action `type`s, but these are [configurable](#customizing-field-serialization). Additionally, the following field types are supported in the default serializers:
 
 - [`checkbox`](https://github.com/siren-js/spec-extensions#checkbox-fields)
 - [`file`](https://github.com/siren-js/spec-extensions#file-fields)
