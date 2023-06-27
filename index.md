@@ -1,18 +1,19 @@
-Siren.js provides tools for producing and consuming [Siren] APIs in JavaScript.
+## Documentation
 
-[siren]: https://github.com/kevinswiber/siren
+Here's a list of recommended Siren reading:
 
-- [Core](core.md) &ndash; core Siren.js functionality
-- [Client](client.md) &ndash; boilerplate for Siren API clients
-- [Crawler](crawler.md) (WIP) &ndash; configurable crawler for Siren APIs
-- [SirenNg](https://github.com/siren-js/ng) &ndash; Siren.js for Angular apps
+- The [specification](https://github.com/kevinswiber/siren) covers Siren's elements and schema
+- [Siren H-Factors](https://dillonredding.github.io/2023/06/26/siren-h-factors.html) goes into depth about Siren's hypertext features
+- [Siren Best Practices](https://siren-js.github.io/best-practices/) enumerates several best practices for Siren servers and clients
 
-There are also projects built for or with Siren.js that might be helpful to
-non-JavaScript users.
+## Tooling
 
-- [Examples](https://github.com/siren-js/examples) &ndash; repository of apps
-  demoing Siren.js
-- [API browser](https://siren-js.github.io/api-browser/) &ndash; UI for
-  browsing a Siren API (supports our specification extensions)
-- [Specification extensions](https://siren-js.github.io/spec-extensions) &ndash;
-  extensions to the Siren specification, independent of Siren.js and JavaScript
+Here are the tools provided by this organization:
+
+- [JavaScript client library](https://github.com/siren-js/client)
+- [JavaScript server library](https://github.com/siren-js/server)
+- [Siren API Browser](https://siren-js.github.io/api-browser)
+
+## Examples
+
+The [`examples` repository](https://github.com/siren-js/examples) contains several example implementations of both clients and servers.
